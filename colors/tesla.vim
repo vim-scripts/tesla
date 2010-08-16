@@ -1,8 +1,8 @@
 " =============================================================================
 " Vim color file (tesla.vim)
 "    Maintainer: clericJ
-"   Last Change: 2010 Mar 31
-"       Version: 1.4
+"   Last Change: 2010 Aug 16
+"       Version: 1.5
 " =============================================================================
 
 set background=dark
@@ -23,6 +23,7 @@ hi Cursor                       guibg=red               guifg=white
 hi lCursor                      guibg=MediumPurple3
 hi CursorLine                   guibg=#353545
 hi CursorColumn                 guibg=MidnightBlue
+hi ColorColumn                  guibg=#23364D           gui=none
 hi MatchParen                   guibg=blue              guifg=white
 
 hi DiffAdd                      guibg=DarkBlue
@@ -30,7 +31,8 @@ hi DiffChange                   guibg=#005124
 hi DiffDelete   gui=none        guibg=#604800           guifg=gray10
 hi DiffText     gui=none        guibg=#731600
 
-hi Directory    gui=bold                                guifg=LightBlue
+hi Directory    gui=bold        guifg=LightBlue
+hi Error        guibg=#432323   guifg=white
 hi ErrorMsg                     guibg=red               guifg=White
 hi FoldColumn                   guibg=LightSteelBlue4   guifg=LightGray
 hi Folded       gui=underline   guibg=black             guifg=gray
@@ -60,9 +62,10 @@ hi Todo         gui=none        guibg=DarkRed           guifg=AliceBlue
 " Status-line user colors
 " =============================================================================
 
-"hi User1        gui=bold        guifg=white             guibg=LightSteelBlue4
-"hi User2        gui=none        guifg=white             guibg=LightSteelBlue4
-"hi User3        gui=none        guifg=white             guibg=#303f4f
+hi User1        gui=bold        guifg=white             guibg=LightSteelBlue4
+hi User2        gui=none        guifg=white             guibg=LightSteelBlue4
+hi User3        gui=none        guifg=white             guibg=#303f4f
+hi User4        gui=none        guifg=white             guibg=DarkRed
 
 " =============================================================================
 " Change cursor color in different modes
