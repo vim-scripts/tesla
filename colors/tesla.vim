@@ -1,8 +1,8 @@
 " =============================================================================
 " Vim color file (tesla.vim)
 "    Maintainer: clericJ
-"   Last Change: 2010 Aug 16
-"       Version: 1.5
+"   Last Change: 2010 Oct 10
+"       Version: 1.6
 " =============================================================================
 
 set background=dark
@@ -47,7 +47,7 @@ hi PmenuSel                     guibg=#6c7b8b           guifg=white
 hi PmenuSbar                    guibg=gray60            guifg=azure3
 hi PmenuThumb                                           guifg=azure2
 hi Question     gui=bold                                guifg=green
-hi Search                       guibg=DarkGreen         guifg=white
+hi Search                       guibg=#2d4e54           guifg=white
 hi StatusLine   gui=none        guibg=LightSteelBlue4   guifg=white
 hi StatusLineNC gui=none        guibg=LightSteelBlue4   guifg=gray
 hi Title        gui=bold        guibg=#3a4959           guifg=AliceBlue
@@ -62,10 +62,10 @@ hi Todo         gui=none        guibg=DarkRed           guifg=AliceBlue
 " Status-line user colors
 " =============================================================================
 
-hi User1        gui=bold        guifg=white             guibg=LightSteelBlue4
-hi User2        gui=none        guifg=white             guibg=LightSteelBlue4
-hi User3        gui=none        guifg=white             guibg=#303f4f
-hi User4        gui=none        guifg=white             guibg=DarkRed
+"hi User1        gui=bold        guifg=white             guibg=LightSteelBlue4
+"hi User2        gui=none        guifg=white             guibg=LightSteelBlue4
+"hi User3        gui=none        guifg=white             guibg=#303f4f
+"hi User4        gui=none        guifg=white             guibg=DarkRed
 
 " =============================================================================
 " Change cursor color in different modes
@@ -90,7 +90,7 @@ hi Float            gui=none                        guifg=green3
 hi Identifier       gui=none                        guifg=green3
 hi PreProc          gui=none                        guifg=#4fc6ff
 hi Function         gui=none                        guifg=#4fc6ff
-hi Special          gui=none guibg=#581858          guifg=plum3
+hi Special          gui=none guibg=#192636          guifg=#d775f1
 hi Statement        gui=none                        guifg=white
 hi Type             gui=none                        guifg=green3
 hi SpecialComment   gui=none                        guifg=DarkRed
@@ -105,3 +105,10 @@ hi pythonDecorator   gui=none                        guifg=green3
 hi pythonBuiltinFunc gui=none                        guifg=green3
 hi link pythonOperator  Statement
 
+" =============================================================================
+" Taglist Plugin
+" =============================================================================
+"
+hi TagListFileName   gui=none        guibg=#192636           guifg=white
+
+" =============================================================================
